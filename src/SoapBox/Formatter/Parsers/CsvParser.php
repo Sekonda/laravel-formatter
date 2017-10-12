@@ -29,7 +29,11 @@ class CsvParser extends Parser {
 			for ($i = 1; $i < count($temp); ++$i) {
 				$row = [];
 				for ($j = 0; $j < count($headings); ++$j) {
-					$row[$headings[$j]] = $temp[$i][$j];
+				    if(!empty($temp[$i][$j])) {
+                        $row[$headings[$j]] = $temp[$i][$j];
+                    } else {
+                        $row[$headings[$j]] = null;
+                    }
 				}
 				$expanded = [];
 				foreach ($row as $key => $value) {
@@ -42,3 +46,4 @@ class CsvParser extends Parser {
 		return $result;
 	}
 }
+
