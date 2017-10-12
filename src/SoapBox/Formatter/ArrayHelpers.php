@@ -1,4 +1,4 @@
-<?php namespace SoapBox\Formatter;
+<?php namespace Sekonda\Formatter;
 
 use Illuminate\Support\Arr;
 

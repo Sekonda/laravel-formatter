@@ -1,4 +1,4 @@
-<?php namespace SoapBox\Formatter\Parsers;
+<?php namespace Sekonda\Formatter\Parsers;
 
 class XmlParser extends Parser {
 
@@ -6,7 +6,7 @@ class XmlParser extends Parser {
 
 	/**
 	 * Ported from laravel-formatter
-	 * https://github.com/SoapBox/laravel-formatter
+	 * https://github.com/Sekonda/laravel-formatter
 	 *
 	 * @author  Daniel Berry <daniel@danielberry.me>
 	 * @license MIT License (see LICENSE.readme included in the bundle)

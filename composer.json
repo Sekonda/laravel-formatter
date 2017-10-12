@@ -1,20 +1,25 @@
 {
-	"name": "soapbox/laravel-formatter",
+	"name": "sekonda/laravel-formatter",
 	"type": "library",
 	"description": "A formatting library that converts data output between XML, CSV, JSON, TXT, YAML and a few others.",
 	"keywords": ["laravel", "formatter", "data", "convert", "csv", "xml", "yaml"],
-    "homepage": "http://github.com/SoapBox/laravel-formatter",
+    "homepage": "https://github.com/Sekonda/laravel-formatter",
     "license": "MIT",
-	"version": "2.0",
+	"version": "3.0",
 	"authors": [
 		{
 			"name": "Graham McCarthy",
-			"email": "graham@soapboxhq.com",
+			"email": "graham@Sekondahq.com",
 			"homepage": "http://grahammccarthy.com"
 		},
 		{
 			"name": "Jaspaul Bola",
 			"email": "jaspaul.b@gamil.com",
+			"homepage": "http://jaspaulbola.com"
+		},
+		{
+			"name": "Simon White",
+			"email": "simondotwhite@gmail.com",
 			"homepage": "http://jaspaulbola.com"
 		}
 	],
@@ -24,9 +29,12 @@
 		"mustangostang/spyc": "0.5.*@dev",
 		"illuminate/support": ">=4.0"
 	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "2.*"
+	},
 	"autoload": {
 		"psr-0": {
-			"SoapBox\\Formatter": "src/"
+			"Sekonda\\Formatter": "src/"
 		}
 	},
 	"minimum-stability": "dev"

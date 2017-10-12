@@ -1,9 +1,9 @@
-<?php namespace SoapBox\Formatter\Test\Parsers;
+<?php namespace Sekonda\Formatter\Test\Parsers;
 
-use SoapBox\Formatter\Test\TestCase;
-use SoapBox\Formatter\Parsers\Parser;
-use SoapBox\Formatter\Parsers\YamlParser;
-use SoapBox\Formatter\Parsers\XmlParser;
+use Sekonda\Formatter\Test\TestCase;
+use Sekonda\Formatter\Parsers\Parser;
+use Sekonda\Formatter\Parsers\YamlParser;
+use Sekonda\Formatter\Parsers\XmlParser;
 
 class YamlParserTest extends TestCase {
 

@@ -1,4 +1,4 @@
-<?php namespace SoapBox\Formatter\Parsers;
+<?php namespace Sekonda\Formatter\Parsers;
 
 use InvalidArgumentException;
 

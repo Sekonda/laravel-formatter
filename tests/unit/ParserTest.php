@@ -1,6 +1,6 @@
-<?php namespace SoapBox\Formatter\Test;
+<?php namespace Sekonda\Formatter\Test;
 
-use SoapBox\Formatter\Formatter;
+use Sekonda\Formatter\Formatter;
 
 class ParserTest extends TestCase {
 
