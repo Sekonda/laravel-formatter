@@ -30,8 +30,8 @@
 		"illuminate/support": ">=4.0"
 	},
 	"autoload": {
-		"psr-0": {
-			"Sekonda\\Formatter": "src/"
+		"psr-4": {
+			"Sekonda\\Formatter\\": "src/Sekonda/Formatter/"
 		}
 	},
 	"minimum-stability": "dev"
