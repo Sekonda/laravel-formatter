@@ -49,4 +49,3 @@ class CsvParser extends Parser
         return $result;
     }
 }
-
